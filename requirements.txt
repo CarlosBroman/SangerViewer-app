@@ -1,4 +1,4 @@
 patchworklib
-QUEEN
+python-queen==1.1.0
 Bio
 matplotlib
