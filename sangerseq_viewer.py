@@ -18,7 +18,7 @@ color_dict = {"G":"#f2f059", "C":"#74b2d7", "A":"#79E5B7", "T":"#ff776c", "N":"#
 
 
 st.sidebar.title('🧬 Sanger sequence viewer')
-st.sidebar.write('Sanger sequence viewer is an app that allows to visualize chromatograms and obtain the fasta sequence from ab1 files a genebank file as reference. It is inspired and adapted from the original [GitHub repo](https://github.com/ponnhide/sangerseq_viewer) from @ponnhide. The Github code for this app can be found in [my repo], with files to be used as examples.')
+st.sidebar.write('Sanger sequence viewer is an app that allows to visualize chromatograms and obtain the fasta sequence from ab1 files a genebank file as reference. It is inspired and adapted from the original [GitHub repo](https://github.com/ponnhide/sangerseq_viewer) from @ponnhide. The Github code for this app can be found in [my repo](https://github.com/CarlosBroman/SangerViewer-app), with files to be used as examples.')
 
 uploaded_gbk = st.sidebar.file_uploader('Upload Genbank file', type=['gb'])
 uploaded_abi = st.sidebar.file_uploader('Upload AB1 file', type=['ab1'])
