@@ -1,5 +1,4 @@
 patchworklib
-QUEEN.queen
-Bio
+QUEEN
 Bio
 matplotlib
